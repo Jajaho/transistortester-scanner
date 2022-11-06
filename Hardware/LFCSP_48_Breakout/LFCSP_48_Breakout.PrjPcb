@@ -116,6 +116,87 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YKSUOVFT
 
+[Document5]
+DocumentPath=Panelized.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XIEPKDQK
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Design Rule Check - Panelized.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Design Rule Check - PCB1.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized.REP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for LFCSP_48_Breakout\Panelized_Soldermask_Top.gbr
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -359,22 +440,22 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=Final
@@ -383,47 +464,51 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
+Configuration5_Name2=OutputConfigurationParameter1
+Configuration5_Item2=FileComment= |FileSubject=None|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=394|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16973849~1,16973835~1,16842751~1,16973834~1,16973848~1|PlusApertureTolerance=394|Record=GerberX2View|Sorted=False|DocumentPath=F:\Git\transistortester-scanner\Hardware\LFCSP_48_Breakout\Panelized.PcbDoc
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
-OutputVariantName11=[No Variations]
+OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 
 [OutputGroup6]
@@ -1069,6 +1154,18 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Schlib1.SchLib
+ComponentDesignItemID0=CMP-0798-00018-1
+ComponentSymbolReference0=CMP-0798-00018-1
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Schlib1.SchLib
+ComponentDesignItemID1=Header 1x24
+ComponentSymbolReference1=Header 1x24
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1082,6 +1179,98 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Bandwidth (Hz)
+ParameterUpdate0=1
+ParameterName1=Code_JEDEC
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=ComponentLink1Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink1URL
+ParameterUpdate5=1
+ParameterName6=ComponentLink2Description
+ParameterUpdate6=1
+ParameterName7=ComponentLink2URL
+ParameterUpdate7=1
+ParameterName8=ComponentLink3Description
+ParameterUpdate8=1
+ParameterName9=ComponentLink3URL
+ParameterUpdate9=1
+ParameterName10=Contact Resistance
+ParameterUpdate10=1
+ParameterName11=Datasheet URL
+ParameterUpdate11=1
+ParameterName12=DatasheetVersion
+ParameterUpdate12=1
+ParameterName13=Description
+ParameterUpdate13=1
+ParameterName14=Gender
+ParameterUpdate14=1
+ParameterName15=Library Reference
+ParameterUpdate15=1
+ParameterName16=Manufacturer
+ParameterUpdate16=1
+ParameterName17=Manufacturer URL
+ParameterUpdate17=1
+ParameterName18=Max Analog Signal Range
+ParameterUpdate18=1
+ParameterName19=Mounting Technology
+ParameterUpdate19=1
+ParameterName20=Operating Temperature
+ParameterUpdate20=1
+ParameterName21=Orientation
+ParameterUpdate21=1
+ParameterName22=Package Reference
+ParameterUpdate22=1
+ParameterName23=PackageDescription
+ParameterUpdate23=1
+ParameterName24=PackageReference
+ParameterUpdate24=1
+ParameterName25=Packaging
+ParameterUpdate25=1
+ParameterName26=Packing
+ParameterUpdate26=1
+ParameterName27=Part Number
+ParameterUpdate27=1
+ParameterName28=PartNumber
+ParameterUpdate28=1
+ParameterName29=Pin Number
+ParameterUpdate29=1
+ParameterName30=Pitch
+ParameterUpdate30=1
+ParameterName31=Publisher
+ParameterUpdate31=1
+ParameterName32=Rated Current
+ParameterUpdate32=1
+ParameterName33=Ron (ohms)
+ParameterUpdate33=1
+ParameterName34=Row Number
+ParameterUpdate34=1
+ParameterName35=Supply V Guar Performance
+ParameterUpdate35=1
+ParameterName36=t transition (s)
+ParameterUpdate36=1
+ParameterName37=Withstanding Voltage
+ParameterUpdate37=1
+ParameterName38=Working Voltage
+ParameterUpdate38=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=61303211821
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=ADI-CP-48-1_L
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=ADI-CP-48-1_M
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=ADI-CP-48-1_N
+ModelUpdate3=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
