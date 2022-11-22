@@ -3,7 +3,7 @@
 ###############################################################################
 
 ## General Flags
-PROJECT = mega328
+PROJECT = test-config_1
 
 CC = avr-gcc
 
