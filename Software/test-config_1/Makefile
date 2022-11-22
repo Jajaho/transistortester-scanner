@@ -163,10 +163,10 @@ UI_LANGUAGE = LANG_ENGLISH
 # you can select a special type with setting the ICON_TYPE.
 # Currently you can select 1 or 3 for one of two thin layouts for the icons.
 # You can also select two thick layouts for the icons by setting the ICON_TYPE to 2 or 0 (0=old style).
-CFLAGS += -DICON_TYPE=3
+#CFLAGS += -DICON_TYPE=3
 
 # option BIG_TP makes the 123 for the test pins (beside the icon) bigger
-CFLAGS += -DBIG_TP
+#CFLAGS += -DBIG_TP
 # option INVERSE_TP inverse the 123 for the test pins (black on white)
 # the option INVERSE_TP disable the option BIG_TP because a frame is required
 #CFLAGS += -DINVERSE_TP
@@ -324,7 +324,7 @@ CFLAGS += -DPOWER_OFF
 
 # Option BAT_CHECK enables the Battery Voltage Check, otherwise the SW Version is displayed instead of Bat.
 # BAT_CHECK should be set for battery powered tester version.
-CFLAGS += -DBAT_CHECK
+#CFLAGS += -DBAT_CHECK
 
 # The BAT_OUT option enables Battery Voltage Output on LCD (if BAT_CHECK is selected).
 # If your 9V supply has a diode installed, use the BAT_OUT=600 form to specify the
