@@ -177,7 +177,7 @@ UI_LANGUAGE = LANG_ENGLISH
 
 # The WITH_SELFTEST option enables selftest function (only for mega168 or mega328) including the calibration.
 # Normally the mega168 uses selftest without T1 to T7 to enable both hFE measurements.
-CFLAGS += -DWITH_SELFTEST
+#CFLAGS += -DWITH_SELFTEST
 # You can enable the extended tests T1 to T7 for the atmega168 by selecting the  NO_COMMON_COLLECTOR_HFE  option.
 # The T1 to T7 tests are usefull to find problems with your tester.
 # You can also disable the extended tests T1 to T7 with the option NO_TEST_T1_T7 to accelerate the calibration
@@ -195,7 +195,7 @@ CFLAGS += -DWITH_SELFTEST
 # With a external capacitor a additionally correction of reference voltage is figured out for 
 # low capacity measurement and also for the AUTOSCALE_ADC measurement.
 # The AUTO_CAL option is only selectable for mega168 and mega328.
-CFLAGS += -DAUTO_CAL
+#CFLAGS += -DAUTO_CAL
 
 # The tester reports the uncalibrated state with a message after testing a part.
 # Normally a long text is shown, which explains the steps of calibration.
@@ -320,7 +320,7 @@ CFLAGS += -DANZ_MESS=25
 # but successfull measurements are allowed double of the specified number.
 #  You can specify up to 255 empty measurements (CFLAGS += -DPOWER_OFF=255).
 #CFLAGS += -DPOWER_OFF=5
-CFLAGS += -DPOWER_OFF
+#CFLAGS += -DPOWER_OFF
 
 # Option BAT_CHECK enables the Battery Voltage Check, otherwise the SW Version is displayed instead of Bat.
 # BAT_CHECK should be set for battery powered tester version.
