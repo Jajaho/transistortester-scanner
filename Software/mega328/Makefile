@@ -28,7 +28,7 @@ PARTNO = m328p
 # Currently a frequency measurement at ATmega Pin PD4, a frequency generator at TP2 ,
 # the external voltage measurement and C+ESR measurement can be selected. Of course you can also return to
 # the normal transistor tester function and switch off the tester.
-CFLAGS += -DWITH_MENU
+# CFLAGS += -DWITH_MENU
 #
 # For ATmega328 the menu function "rotary encoder check" is only enabled with the WITH_ROTARY_CHECK option.
 #CFLAGS += -DWITH_ROTARY_CHECK
@@ -273,7 +273,7 @@ CFLAGS += -DESR_ZERO=20
 CFLAGS += -DNO_AREF_CAP
 
 # The OP_MHZ option tells the software the Operating Frequency of your ATmega.
-OP_MHZ = 8
+OP_MHZ = 16
 
 # Restart from sleep mode will be delayed for 16384 clock tics with crystal mode.
 # Operation with the internal RC-Generator or external clock will delay the restart by only 6 clock tics.
@@ -320,7 +320,7 @@ CFLAGS += -DANZ_MESS=25
 # but successfull measurements are allowed double of the specified number.
 #  You can specify up to 255 empty measurements (CFLAGS += -DPOWER_OFF=255).
 #CFLAGS += -DPOWER_OFF=5
-CFLAGS += -DPOWER_OFF
+#CFLAGS += -DPOWER_OFF
 
 # Option BAT_CHECK enables the Battery Voltage Check, otherwise the SW Version is displayed instead of Bat.
 # BAT_CHECK should be set for battery powered tester version.
@@ -341,7 +341,7 @@ CFLAGS += -DBAT_OUT=150
 # The warning level is 0.1V higher than the specified poor level (<=1.3V).
 # Setting the poor level to low values is not recommended for rechargeable Batteries,
 # because this increase the danger for deep discharge!!
-CFLAGS += -DBAT_POOR=6400
+CFLAGS += -DBAT_POOR=4400
 
 # You can set a upper battery voltage limit in mV units for battery operation mode.
 # The operation time of additional functions is limited with the battery operation mode. 
@@ -360,7 +360,7 @@ CFLAGS += -DBAT_POOR=6400
 
 # The sleep mode of the ATmega168 or ATmega328 is normally used by the software to save current.
 # You can inhibit this with the option INHIBIT_SLEEP_MODE .
-INHIBIT_SLEEP_MODE = 0
+INHIBIT_SLEEP_MODE = 1
 
 
 # Select your programmer type, speed and port, if you wish to use avrdude.
