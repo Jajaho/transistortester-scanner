@@ -177,7 +177,7 @@ CFLAGS += -DBIG_TP
 
 # The WITH_SELFTEST option enables selftest function (only for mega168 or mega328) including the calibration.
 # Normally the mega168 uses selftest without T1 to T7 to enable both hFE measurements.
-CFLAGS += -DWITH_SELFTEST
+# CFLAGS += -DWITH_SELFTEST
 # You can enable the extended tests T1 to T7 for the atmega168 by selecting the  NO_COMMON_COLLECTOR_HFE  option.
 # The T1 to T7 tests are usefull to find problems with your tester.
 # You can also disable the extended tests T1 to T7 with the option NO_TEST_T1_T7 to accelerate the calibration
@@ -195,7 +195,7 @@ CFLAGS += -DWITH_SELFTEST
 # With a external capacitor a additionally correction of reference voltage is figured out for 
 # low capacity measurement and also for the AUTOSCALE_ADC measurement.
 # The AUTO_CAL option is only selectable for mega168 and mega328.
-CFLAGS += -DAUTO_CAL
+#CFLAGS += -DAUTO_CAL
 
 # The tester reports the uncalibrated state with a message after testing a part.
 # Normally a long text is shown, which explains the steps of calibration.
@@ -349,7 +349,7 @@ CFLAGS += -DBAT_POOR=4400
 # "DC_Pwr_Mode", where time limits of the additional functions are switched off.
 # The "DC_Pwr_Mode" is also started, if the battery voltage is detected below 0.9V
 # regardless to the state of the DC_PWR option.
-# CFLAGS += -DDC_PWR=9500
+CFLAGS += -DDC_PWR=9500
 
 # Voltage divider for battery voltage measurement  10k / 3.3k = 133/33
 #CFLAGS += -DBAT_NUMERATOR=133
